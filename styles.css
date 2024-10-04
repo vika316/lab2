@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.categories, .product-table, .about, .contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.categories h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.categories ol {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.categories ol li {
+    margin-bottom: 10px;
+}
+
+.product-table h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td {
+    background-color: #fff;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
